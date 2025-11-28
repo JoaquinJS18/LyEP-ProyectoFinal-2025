@@ -26,4 +26,7 @@ export class Pedido {
 
   @Column({ type: 'text', nullable: true })
   notas_cliente: string;
+
+  @Column({ type: 'datetime' })
+  fecha_entrega: Date;
 }
